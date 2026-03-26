@@ -1,2 +1,2 @@
 game: src/main.cpp
-	g++ src/main.cpp -o game
+	g++ src/main.cpp -o game.exe
