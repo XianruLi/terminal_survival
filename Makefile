@@ -1,6 +1,6 @@
 # 1. 基础配置
 CXX = x86_64-w64-mingw32-g++
-CFLAGS = -static -static-libgcc -static-libstdc++ -Wall
+CFLAGS = -static -static-libgcc -static-libstdc++ -Wall -fexec-charset=GBK
 
 # 2. 定义文件夹（保持工程目录干净）
 SRC_DIR = src
